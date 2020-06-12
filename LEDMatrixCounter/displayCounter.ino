@@ -8,7 +8,7 @@ void displayCounter(int _counter) { //
 
       // Tens
       if(bitRead(numbers[counterTens][i],j) == 1) { // read byte from number array [first digit] bit by bit
-        c_val = 25; // if bit equals 1 set c_val to 25
+        c_val = brightness; // if bit equals 1 set c_val to 25
       } else {
         c_val = 0; // otherwise set c_val to 0
       } 
@@ -16,7 +16,7 @@ void displayCounter(int _counter) { //
 
       // Ones
       if(bitRead(numbers[counterOnes][i],j) == 1) { // read byte from number array [second digit] bit by bit
-        c_val = 25; // if bit equals 1 set c_val to 25
+        c_val = brightness; // if bit equals 1 set c_val to 25
       } else {
         c_val = 0; // otherwise set c_val to 0
       } 
