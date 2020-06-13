@@ -13,3 +13,6 @@ Components:
 - 1 Capacitor 6.3 V 1000uF
 
 For a detailed description on RGB LED matrices, read Adafruits NeoPixel Uberguide - https://learn.adafruit.com/adafruit-neopixel-uberguide
+
+Circuit
+![Arduino Circuit](fritzing/LED-Matrix-Counter_bb.png)
